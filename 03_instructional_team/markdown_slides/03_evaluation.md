@@ -30,9 +30,16 @@ $ echo "Data Sciences Institute"
 2. Exact evaluation (functional correctness, similarity metrics) gives unambiguous scores but covers only narrow, well-defined tasks.
 3. AI-as-a-judge enables scalable subjective evaluation but introduces inherent biases (position, verbosity, and self-preference) that must be actively managed.
 4. Factual consistency requires structured approaches: self-verification, search-augmented factuality, and entailment each address different failure modes.
+
+---
+
+## Main Points (cont.)
+
+
 5. Safety, instruction-following, and latency/cost are first-class evaluation criteria, not secondary concerns.
 6. Model selection follows a funnel: filter by license/privacy → narrow with benchmarks → run custom evaluation → monitor in production.
 7. Evaluation pipelines should be defined before building and run continuously; ad hoc "eyeballing" is not sufficient for production.
+
 
 ---
 
@@ -1017,6 +1024,12 @@ Performance comparison of closed-source and open-weight large language models on
 2. Exact evaluation (functional correctness, similarity metrics) gives unambiguous scores but covers only narrow, well-defined tasks.
 3. AI-as-a-judge enables scalable subjective evaluation but introduces inherent biases (position, verbosity, and self-preference) that must be actively managed.
 4. Factual consistency requires structured approaches: self-verification, search-augmented factuality, and entailment each address different failure modes.
+
+---
+
+## Main Points (cont.)
+
+
 5. Safety, instruction-following, and latency/cost are first-class evaluation criteria, not secondary concerns.
 6. Model selection follows a funnel: filter by license/privacy → narrow with benchmarks → run custom evaluation → monitor in production.
 7. Evaluation pipelines should be defined before building and run continuously; ad hoc "eyeballing" is not sufficient for production.
